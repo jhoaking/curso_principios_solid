@@ -1,5 +1,5 @@
 import { Tesla, Audi, Toyota, Honda, Volvo, Vehicle } from "./03-liskov-b";
-
+ 
 (() => {
   const printCarSeats = (cars: Vehicle[]) => {
     //for (const car of cars) {

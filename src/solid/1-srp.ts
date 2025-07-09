@@ -36,7 +36,7 @@
     loadProduct(id: number) {
       this.productService.getProduct(id);
     }
-
+    
     saveProduct(product: Product) {
       this.productService.saveProduct(product);
     }
